@@ -141,5 +141,5 @@ alias mkdir=function_mkd
 
 alias gcsh="vim ~/.bashrc"
 alias scsh="source ~/.bashrc"
-alias gr`c="vim ~/.vimrc"
+alias gvrc="vim ~/.vimrc"
 alias gtmux="vim ~/.tmux.conf"
