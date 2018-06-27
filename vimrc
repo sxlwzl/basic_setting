@@ -195,6 +195,8 @@ filetype plugin indent on
 "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 "match OverLength /\%81v.\+/
 
+"git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 """""vundle setting start
 set nocompatible " be iMproved
 filetype off " required!
