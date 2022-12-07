@@ -95,6 +95,15 @@ nmap tm :TMToggle<CR>
 " 8            4
 
 
+
+" Enable cursor line position tracking:
+set cursorline
+set cursorcolumn
+" Set line numbering to red background:
+highlight CursorLineNR ctermbg=red
+highlight CursorLine   cterm=NONE ctermbg=blue ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn cterm=NONE ctermbg=blue ctermfg=white guibg=darkred guifg=white
+
 autocmd! BufWritePost .vimrc source ~/.vimrc
 autocmd! BufWritePost .cshrc source ~/.cshrc
 " au BufRead,BufNewFile *.sv,*.svh set filetype=systemverilog
