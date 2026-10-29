@@ -2,9 +2,10 @@
 
 1, Node.js@24 brew install node@24
 
-2, install motrix， transmit，tencent lemon，parallels client，wechat， google crhome， Microsoft Edge ，visual studio code， Iterm2， github desktop， DSH desktop
+2, install motrix， transmit，tencent lemon，parallels client，wechat，google crhome， Microsoft Edge ，visual studio code， Iterm2， github desktop
 
 3, LaunchNext(free)
+https://github.com/RoversX/LaunchNext
 
 4, defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder
 
