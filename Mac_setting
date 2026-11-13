@@ -10,8 +10,8 @@ https://github.com/RoversX/LaunchNext
 
 4, defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder
 
-5, mouse direction : setting -> mouse -> direction, or use Caldis/Mos to control
+5.1 mouse direction : setting -> mouse -> direction, or use Caldis/Mos to control
 macOS 只有一个全局开关（com.apple.swipescrolldirection），同时管鼠标和触控板，系统设置里没法分开。
 这正是 Mos / Scroll Reverser 的立足点——它们通过 IOHIDEvent 识别设备类型，只翻转鼠标事件。
-
+5.2 LinearMouse
 
