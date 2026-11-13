@@ -15,3 +15,4 @@ macOS 只有一个全局开关（com.apple.swipescrolldirection），同时管�
 这正是 Mos / Scroll Reverser 的立足点——它们通过 IOHIDEvent 识别设备类型，只翻转鼠标事件。
 5.2 LinearMouse
 
+6. removemacai status
